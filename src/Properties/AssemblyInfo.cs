@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Wox plugin for Guid generation")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Vladimir Rybalko")]
-[assembly: AssemblyProduct("Wox.Guid.Plugin")]
+[assembly: AssemblyProduct("Wox.Plugin.Guid")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
