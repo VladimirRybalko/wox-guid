@@ -1,0 +1,11 @@
+{
+  "ID":"29DD2BE9DBF144ED8FEADA3690752C74",
+  "ActionKeyword":"guid",
+  "Name":"Wox.Guid.Generator",
+  "Description":"Wox guid generator",
+  "Author":"Vladimir Rybalko",
+  "Version":"1.0.0",
+  "Language":"csharp",
+  "Website":"https://github.com/VladimirRybalko/wox-guid",
+  "ExecuteFileName":"Wox.Plugin.Guid.dll"
+}
