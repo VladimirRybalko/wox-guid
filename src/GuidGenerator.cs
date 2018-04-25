@@ -5,6 +5,8 @@ namespace Wox.Plugin.Guid
 {
     public sealed class GuidGenerator : IPlugin
     {
+        private const string ImagePath = "images/guid.png";
+
         public void Init(PluginInitContext context)
         {
         }
@@ -17,7 +19,8 @@ namespace Wox.Plugin.Guid
             {
                 new Result
                 {
-                    Title = guid,
+                    Title = guid,                    
+                    IcoPath = ImagePath,
                     Action = e =>
                     {
                         Clipboard.SetText(guid);
@@ -28,6 +31,7 @@ namespace Wox.Plugin.Guid
                 new Result
                 {
                     Title = guid.ToUpper(),
+                    IcoPath = ImagePath,
                     Action = e =>
                     {
                         Clipboard.SetText(guid);
