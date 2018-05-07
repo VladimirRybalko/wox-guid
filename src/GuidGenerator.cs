@@ -14,6 +14,7 @@ namespace Wox.Plugin.Guid
         public List<Result> Query(Query query)
         {
             var guid = System.Guid.NewGuid().ToString();
+            var guidUpper = guid.ToUpperInvariant();
 
             return new List<Result>
             {
@@ -30,11 +31,11 @@ namespace Wox.Plugin.Guid
 
                 new Result
                 {
-                    Title = guid.ToUpper(),
+                    Title = guidUpper,
                     IcoPath = ImagePath,
                     Action = e =>
                     {
-                        Clipboard.SetText(guid);
+                        Clipboard.SetText(guidUpper);
                         return true;
                     }
                 }
